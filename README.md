@@ -12,7 +12,7 @@ The server speaks JSON-RPC 2.0 over HTTP POST (protocol version `2025-03-26`) an
 ## Build and install
 
 1. Build the project: `dotnet build -c Release`
-2. Copy the output `Plugin_MCPServer.dll` to Genie's `Plugins` folder.
+2. Copy the output `MCPServer.dll` to Genie's `Plugins` folder.
 3. Start Genie and load the plugin. It starts the server on load and echoes the listening address.
 
 Use the plugin's `Show` action to echo the current endpoint again.
